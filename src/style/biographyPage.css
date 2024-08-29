@@ -1,0 +1,111 @@
+.biographyPageMainDiv{
+    display: flex;
+    position: relative;
+    top: -618px;
+    margin: 10%;
+}
+
+.LawyerImg{
+    width: 450px;
+}
+
+.attorneyProfileDiv h2{
+    margin-top: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.attorneyProfileDiv p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: grey;
+}
+
+.attorneyProfileDiv h4 span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-right: 8px;
+}
+
+
+.attorneyProfileDiv h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.bioEmailPhone{
+    margin-top: 45px;
+}
+
+.biographyPageSocialMediaDetails{
+    margin-top: 50px;
+    margin-left: -3%;
+}
+
+
+.biographyContent{
+    position: relative;
+    margin-left: 4%;
+    margin-top: -35px;
+    margin-bottom: -55%;
+}
+
+.biographyContent h2{
+    color: rgb(114, 94, 44);
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 25px;
+    margin-top: 35px;
+}
+
+.biographyContent p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.biographyContent h3{
+    color: rgb(114, 94, 44);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    position: relative;
+    top: -15px;
+}
+
+.biographyContent p i{
+    margin-right: 10px;
+    color: rgb(114, 94, 44);
+}
+
+.skillsheading{
+    display: flex;
+}
+
+.skillName{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.skillPerc{
+    position: absolute;
+    right: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 15px;
+
+}
+
+.progressBar{
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 720px) {
+    .biographyPageMainDiv{
+        display: block;
+    }
+
+    .attorneyProfileDiv{
+        margin-left: 8%;
+        text-align: center;
+    }
+
+    .biographyContent{
+        margin-bottom: -100%;
+    }
+}

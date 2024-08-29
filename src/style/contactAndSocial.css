@@ -1,0 +1,56 @@
+.contactAndSocialMainDiv{
+    display: flex;
+    height: 50px;
+    color: rgb(145, 142, 142);
+    
+}
+
+.contactsDetails{
+    margin-left: 5%;
+    margin-top: 15px;
+}
+
+.contactsDetails>span{
+    margin: 5px;
+}
+
+.SocialMediaDetails{
+    position: absolute;
+    right: 0px;
+    margin-right: 5%;
+    margin-top: 15px;
+}
+
+.SocialMediaDetails>span{
+    margin: 5px;
+}
+
+.timmings{
+    padding-right: 30px;
+}
+
+.instagram:hover{
+    color: rgb(181, 10, 95);
+    cursor: pointer;
+}
+.facebook:hover{
+    color: rgb(92, 92, 202);
+    cursor: pointer;
+} 
+
+.linkdin:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.twitter:hover{
+    color: black;
+    cursor: pointer;
+} 
+
+@media only screen and (max-width: 1050px){
+    .contactAndSocialMainDiv{
+        display: none;
+    }
+
+}

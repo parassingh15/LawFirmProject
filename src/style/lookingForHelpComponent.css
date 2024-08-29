@@ -1,0 +1,51 @@
+.lookingForHelpMainDiv{
+    background-image: url('../images/Handshake.jpg');
+    height: 60vh;
+    background-size: 100% 100%;
+    padding-top: 5vh; 
+    width: 100%;
+    filter: grayscale(120%);
+    position: relative;
+    margin-bottom: 120px;
+    backdrop-filter: blur(10px) saturate(70%);
+    
+
+}
+
+.lookingForHelpContentBoxDiv{
+    width: 95%;
+    height: 50vh;
+    margin-left: 2.5%;
+    border-color: white;
+    color: rgb(0, 0, 0);
+    border-style: groove;
+    border-color: white;
+    text-align: center;
+    padding-top: 6%;
+
+}
+
+.lookingForHelpDiv{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.lookingForSomeoneHeading{
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.lookingForSomeonPara{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.lookingForHelpContact span i{
+    padding-left: 12px;
+}
+
+.lookingForHelpContentDiv{
+    filter: blur(0);
+}
+
+

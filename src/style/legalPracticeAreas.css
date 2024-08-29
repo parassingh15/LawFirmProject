@@ -1,0 +1,108 @@
+.legalPracticeAreasHeadings{
+    text-align: center;
+}
+
+.legalPracticeAreasHeadings>p{
+    color: grey;
+    font-weight: 500;
+}
+
+.legalPracticeAreasHeadings>h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;  
+}
+
+.legalPracticeAreasHeadings>h3{
+    color: grey;
+    font-weight: 800;
+}
+
+.legalPracticeAreaCardsView{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.cardbodyType2{
+    
+    margin-bottom: 15px;
+    background-color: #352f44;
+    text-align: center;
+    width: 80%;
+    margin: 10%;
+    border-style: none;
+    color: white;
+}
+
+.cardbodyType2>h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cardType2Bg{
+    background-color: #352f44;
+    margin-bottom: 10%;
+    border-style: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.cardType2Bg:hover{
+    top: -20px;
+    
+}
+
+.cardbodyType2Phrase{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+}
+
+.cardbodyType2LearnMore{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-top: 55px;
+}
+
+.cardbodyType1{
+    
+    margin-bottom: 15px;
+    text-align: center;
+    width: 80%;
+    margin: 10%;
+    border-style: none;
+}
+
+.cardbodyType1>h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.cardType1Bg{
+    margin-bottom: 10%;
+    border-style: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* height: 100%; */
+
+}
+
+.cardType1Bg:hover{
+    top: -20px;
+}
+
+.cardbodyType1Phrase{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+}
+
+.cardbodyType1LearnMore{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: goldenrod;
+    margin-top: 55px;
+}
+
+
+
+
+
+
+

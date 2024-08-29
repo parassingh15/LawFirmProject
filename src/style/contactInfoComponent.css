@@ -1,0 +1,113 @@
+.ContactInfoMainDiv{
+    display: flex;
+}
+
+.contactInfoContactDetails{
+    width: 50%;
+    padding: 5%;
+    background-color: rgb(236, 231, 231);
+}
+
+.contactInfoHead{
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(50, 49, 49);
+    font-weight: 500;
+}
+
+.dash{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(50, 49, 49);
+    font-weight: 800;
+}
+
+.callNow{
+    font-size: 30px;
+    color: rgb(50, 49, 49);
+
+}
+
+.contactInfoMail{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:grey;
+}
+
+.contactInfoTime{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:grey;
+}
+
+.contactInfoLocation{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:grey;
+}
+
+.contactInfoMail>i{
+    margin-right: 10px;
+    color: rgb(50, 49, 49);
+}
+
+.contactInfoTime>i{
+    margin-right: 10px;
+    color: rgb(50, 49, 49);
+}
+
+.contactInfoLocation>i{
+    margin-right: 10px;
+    color: rgb(50, 49, 49);
+}
+
+.contactInfoPhrase{
+    font-size: 22px;
+    color: rgb(165, 164, 164);
+    padding-top: 20px;
+}
+
+.Blog{
+    background-image: url('../images/library.PNG');
+    background-size: 100% 100%;
+    width: 50%;
+    padding: 5%;
+}
+
+.BlogHead{
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(50, 49, 49);
+    font-weight: 500;
+    color: white;
+}
+
+.Bdash{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: 800;
+}
+
+@media only screen and (max-width: 760px) {
+    .ContactInfoMainDiv{
+        position: relative;
+        display: block;
+        top: -740px;
+    }
+
+    .contactInfoContactDetails{
+        width: 100%;
+    
+    }
+
+    .Blog{
+        background-image: url('../images/library.PNG');
+        background-size: 100% 100%;
+        width: 100%;
+        padding: 5%;
+        height: 450px;
+    }
+}
+
+

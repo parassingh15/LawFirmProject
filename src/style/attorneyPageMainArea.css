@@ -1,0 +1,111 @@
+.attorneyPageMainDiv{
+    background-image: url("../images/courtImage.jpg");
+    background-size: 100% 28%;
+    height: 120vh;
+    filter: grayscale(80%);
+    background-repeat: no-repeat;
+
+}
+
+.achievementsDiv{
+    display: flex;
+    
+
+}
+
+.acievments{
+    display: flex;
+    position: absolute;
+    right: 0px;
+    margin-right: 5%;
+    margin-top: 15px;
+    padding-top: 25px;
+    color: #323643; 
+}
+
+.acievments>div{
+    margin-left: 35px;
+}
+
+
+.Logo{
+    width: 150px;
+    height: 150px;
+    margin-left: 80px;
+    filter: brightness(100%);
+    filter: contrast(200%);
+    }
+
+.target {
+    color: white;
+}
+
+.awards {
+    color: white;
+}
+
+.trust{
+    color: white;
+}
+
+.h5{
+    display: inline-block;
+    padding-left: 5px;
+    font-weight: 700;
+}
+
+.consultBtn{
+    color: #352f44;
+    height: 60px;
+    width: 240px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.consultBtn:hover{
+    background-color: #352f44;
+    color: white;
+}
+
+.fa-comment{
+    padding-right: 15px;
+}
+
+/* .PracticsAreaCSheadings{
+    margin-top: 250px;
+
+    
+} */
+
+/* .PracticsAreaCSheadings>h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    color: white;
+    text-align: center;
+
+} */
+
+/* .PracticsAreaCSheadings>p{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 45%;
+    font-size: 25px;
+    color: white;
+} */
+
+.fa-arrow-right-long{
+    padding-left: 20px;
+}
+
+.contactNowtBtn{
+    color: #352f44;
+    height: 60px;
+    width: 220px;
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 25px;
+}
+
+.contactNowtBtn:hover{
+    background-color: #352f44;
+    color: white;
+}

@@ -1,0 +1,174 @@
+.startPageComponentMainDiv{
+    background-image: url("../images/courtImage.jpg");
+    background-size: 100% 100%;
+    height: 120vh;
+    filter: grayscale(80%);
+
+}
+
+.achievementsDiv{
+    display: flex;
+    
+}
+
+.acievments{
+    display: flex;
+    position: absolute;
+    right: 0px;
+    margin-right: 5%;
+    margin-top: 15px;
+    padding-top: 25px;
+    color: #323643; 
+    
+}
+
+.acievments>div{
+    margin-left: 35px;
+}
+
+
+.Logo{
+    width: 150px;
+    height: 150px;
+    margin-left: 80px;
+    filter: brightness(100%);
+    filter: contrast(200%);
+    }
+
+.target {
+    color: white;
+    cursor: default;
+}
+
+.awards {
+    color: white;
+    cursor: default;
+}
+
+.trust{
+    color: white;
+    cursor: default;
+}
+
+.trust:hover{
+    color: rgb(88, 88, 231);
+}
+
+.target:hover {
+    color: rgb(88, 88, 231);
+}
+
+.awards:hover {
+    color: rgb(88, 88, 231);
+}
+
+
+.h5{
+    display: inline-block;
+    padding-left: 5px;
+    font-weight: 700;
+}
+
+.consultBtn{
+    color: #352f44;
+    height: 60px;
+    width: 240px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.consultBtn:hover{
+    background-color: #352f44;
+    color: white;
+}
+
+.fa-comment{
+    padding-right: 15px;
+}
+
+.headings{
+    margin-left: 10%;
+    margin-top: 160px;
+
+    
+}
+
+.headings>h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    color: white;
+
+}
+
+.headings>p{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 45%;
+    font-size: 25px;
+    color: white;
+}
+
+.fa-arrow-right-long{
+    padding-left: 20px;
+}
+
+.contactNowtBtn{
+    color: #352f44;
+    height: 60px;
+    width: 220px;
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 25px;
+    transition: ease-in-out;
+    transition: 1.5s;
+}
+
+.contactNowtBtn:hover{
+    background-color: #352f44;
+    color: white;
+}
+
+@media only screen and (max-width: 1050px) {
+
+    .logoImg{
+       display: none;
+    }
+
+    .consultBtnDiv{
+        display: none;
+    }
+    
+    .acievments{
+        position: absolute;
+        top: 12%;
+        background-color: rgb(73, 73, 72);
+        width: 100%;
+        left: 0%;
+        right: 0%;
+        opacity: 0.8;
+        text-align: center;
+        justify-content: center;
+        
+    }
+
+    .acievments>div{
+        margin-left: 0px;
+    }
+
+    .headings{
+        margin-left: 0%;
+        margin-top: 320px;
+        text-align: center;
+        width: 100%;
+   
+    }
+
+    .headings>p{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 80%;
+        font-size: 25px;
+        color: white;
+        text-align: center;
+        margin-left: 10%;
+    }
+
+}

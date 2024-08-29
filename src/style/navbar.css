@@ -1,0 +1,64 @@
+.navbarMainDiv{
+    /* background-color: #3c3e6b; */
+    background-color: #323643; 
+    opacity: 0.8;
+    height: 80px;
+    width: 80%;
+    margin-left: 10%;
+    color:bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: -700px;
+    /* position: -webkit-sticky;
+    position: sticky;
+    top: 0; */
+
+    /* position: sticky;
+    top: 0;
+    z-index: 5; */
+
+}
+
+.navMenu{
+    padding-top: 26px;
+    display: flex;
+    margin-left: 30px;
+    opacity: 0.8;
+    
+
+}
+.navBtn{
+    margin-left: 10px;
+    margin-right: 15px;
+    color: bisque;
+    
+    
+}
+
+.navBtn>h4{
+    position: relative;
+    margin-top: -28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: bisque;
+    transition: 1s;
+
+
+}
+
+.navBtn:hover{
+    color: white;
+    
+}
+
+@media only screen and (max-width: 1050px) {
+
+    .navbarMainDiv{
+        display: none;
+    }
+
+}
+
+
+
+
+

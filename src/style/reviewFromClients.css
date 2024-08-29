@@ -1,0 +1,87 @@
+.reviewFromClientsMainDiv{
+    background-image: url('../images/courtPillarImg.jpg');
+    height: 120vh;
+    background-size: 100% 100%;
+    padding-top: 5vh;  
+}
+
+.reviewFromClientsContentBoxDiv{
+    width: 95%;
+    height: 110vh;
+    margin-left: 2.5%;
+    border-color: white;
+    color: white;
+    border-style: groove;
+    border-color: white;
+    text-align: center;
+    padding-top: 15%;
+
+}
+
+.reviewFromClientsContentDiv{
+    width: 70%;
+    margin-left: 15%;
+}
+
+.reviewFromClientsContentDiv>h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.reviewFromClientsContentDiv>p{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.reviewFromClientsNumbersDiv{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 6%;
+    
+
+}
+
+.reviewFromClientsNumberBox>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.reviewFromClientsNumberBox>h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+
+@media only screen and (max-width: 760px) {
+
+    .reviewFromClientsMainDiv{
+        background-image: url('../images/courtPillarImg.jpg');
+        height: auto;
+        background-size: 100% 100%;
+        padding-top: 5vh;  
+    }
+
+    .reviewFromClientsNumbersDiv{
+        display: block;
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 6%;
+    
+    }
+
+    .reviewFromClientsContentBoxDiv{
+        width: 95%;
+        height: auto;
+        margin-left: 2.5%;
+        border-color: white;
+        color: white;
+        border-style: groove;
+        border-color: white;
+        text-align: center;
+        padding-top: 15%;
+    
+    }
+}
+
